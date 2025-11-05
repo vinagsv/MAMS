@@ -1,0 +1,53 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.cache/
+.vite/
+.env
+.env.*
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Obsidian
+**/.obsidian/
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Coverage
+coverage/
+
+# IDEs
+.idea/
+*.iml
+
+# Git
+*.orig
+
+# React/Vite
+*.local
+*.svelte-kit
+*.parcel-cache
+
+# Misc
+*.swp
+*.swo
+*.tmp
+
+# Don't commit ZIPs or archives
+*.zip
+*.tar
+*.gz
+*.rar
