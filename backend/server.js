@@ -48,7 +48,7 @@ app.use("/api/logs", logsRoutes);
 app.use("/api/equipment", equipmentRoutes);
 app.use("/api/users", userRoutes);
 
-app.get("/health", (req, res) => res.status(200).json({ status: "ok" }));
+app.get("/api/health", (req, res) => res.status(200).json({ status: "ok" }));
 
 if (process.env.NODE_ENV === "production") {
   const frontendPath = path.join(__dirname, "frontend_dist");
